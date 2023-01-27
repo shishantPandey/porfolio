@@ -43,29 +43,6 @@ img[src="https://th.bing.com/th/id/R.7fe3baa7d14308d15d0a46180d460949?rik=KnMDMW
   font-size: 60px;
 }
 
-.navbtns::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 2px;
-  width: 0;
-  background: brown;
-  transition: width 0.3s ease-in-out;
-}
-.navbtns:hover::before {
-  width: 100%;
-}
-.home::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 2px;
-  width: 100%;
-  background: brown;
-  transition: width 0.3s ease-in-out;
-}
 .hir {
   border: 2px solid red;
   margin: 10px;
